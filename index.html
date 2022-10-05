@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Music Survey</title>
+</head>
+
+<body>
+    <div class="container text-white">
+        <h1 class="">Music Survey</h1>
+        <form action="" method="post">
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="txtFirstName" class="form-label">Name:</label>
+                    <input type="text" class="form-control" name="txtFirstName" id="txtFirstName"
+                        autocomplete="given-name" placeholder="Name">
+                </div>
+                <div class="col-md-4">
+                    <label for="emailAddress" class="form-label">E-Mail</label>
+                    <input type="email" class="form-control" name="emailAddress" id="emailAddress" autocomplete="email"
+                        placeholder="E-Mail Address">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <fieldset>
+                        <legend>Select Your Favorite Types of Music</legend>
+                        <div class="col">
+                            <div class="col">
+                                <input type="checkbox" name="chkPop" id="chkPop" class="form-check-input" value="pop">
+                                <label for="chkPop" class="form-label">Pop</label>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" name="chkClassical" id="chkClassical" class="form-check-input"
+                                    value="classical">
+                                <label for="chkClassical" class="form-label">Classical</label>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" name="chkRock" id="chkRock" class="form-check-input"
+                                    value="rock">
+                                <label for="chkRock" class="form-label">Rock</label>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" name="chkFolk" id="chkFolk" class="form-check-input"
+                                    value="folk">
+                                <label for="chkFolk" class="form-label">Folk</label>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" name="chkRap" id="chkRap" class="form-check-input" value="rap">
+                                <label for="chkRap" class="form-label">Rap</label>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" name="chkOther" id="chkOther" class="form-check-input"
+                                    value="other">
+                                <label for="chkOther" class="form-label">Other</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <fieldset>
+                        <legend>Select how often you purchase Music CDs</legend>
+                        <div class="col">
+                            <div class="col">
+                                <input type="radio" name="rdoPurchase" id="rdoWeekly" class="form-check-input"
+                                    value="weekly">
+                                <label for="rdoWeekly" class="form-label">Weekly</label>
+                            </div>
+                            <div class="col">
+                                <input type="radio" name="rdoPurchase" id="rdoMonthly" class="form-check-input"
+                                    value="monthly">
+                                <label for="rdoMonthly" class="form-label">Monthly</label>
+                            </div>
+                            <div class="col">
+                                <input type="radio" name="rdoPurchase" id="rdoRarely" class="form-check-input"
+                                    value="rarely">
+                                <label for="rdoRarely" class="form-label">A few CDs each year</label>
+                            </div>
+                            <div class="col">
+                                <input type="radio" name="rdoPurchase" id="rdoNever" class="form-check-input"
+                                    value="never">
+                                <label for="rdoNever" class="form-label">Never Purchase</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <legend>Select the Locations You Listen to Music</legend>
+                    <select name="location" id="musicLocation" class="form-select" multiple>
+                        <option value="">Please make a selection</option>
+                        <option value="home">At home</option>
+                        <option value="car">In the car</option>
+                        <option value="anywhere">Anywhere (MP3 Player)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="musicRole" class="form-label">What role does music play in your life?</label>
+                    <textarea name="musicRole" id="musicRole" cols="50" rows="5" class="form-control"></textarea>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+            </div>
+
+            <div class="col-md-12 mb-3">
+                <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+                <button type="reset" class="btn btn-lg btn-warning">Reset</button>
+            </div>
+        </form>
+        <footer class="text-white">
+            Jonathan Thorps - jonathan_thorps@insideranken.org
+        </footer>
+    </div>
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
