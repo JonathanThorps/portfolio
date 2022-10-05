@@ -1,0 +1,19 @@
+#home {
+
+}
+
+#about {
+    background-image: url(../img/homeport_return.jpg);
+    background-position: center;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#resume {
+    background-image: url(../img/pexels-sergei-starostin-6466141.jpg);
+    background-position: center;
+    background-attachment:local;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
