@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url(../font/Comfortaa/static/Comfortaa-Regular.ttf);
+}
+
+h1 {
+    font-size: 10rem;
+    font-family: Comfortaa;
+}
+
+.site-logo {
+    height: 100px;
+    width: auto;
+}
+
+#title-law, #title-day, #title-run {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#title-law {
+    color: #e3d512;
+}
+
+#title-day {
+    color: black;
+}
+
+#title-run {
+    color: #2f9e19;
+}
+
+#city {
+    font-size: 16pt;
+}
+
+.nav-item {
+    font-size: 14pt;
+}
+
+#jumbotron {
+    background-image: url(../img/gallery/LDR10.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#jumbotron-title {
+    font-size: 10rem;
+    font-family: Comfortaa;
+}
+
+#btnRegister {
+    background-color: #cdba55;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#mission {
+    background-image: url(../img/gallery/pexels_close_up_shot_of_writing_on_a_contract.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#mission-statement {
+    line-height: 2.5rem;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#training {
+    background-image: url(../img/gallery/LDR9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#couch {
+    font-size: 8rem;
+    font-family: Comfortaa;
+}
+
+#btnTrain {
+    background-color: #2f9e19;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#register-jumbotron {
+    background-image: url(../img/gallery/IMGP1682.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#registration-info {
+    font-size: 1.25rem;
+    font-family: Comfortaa;
+}
+
+#gold {
+    background-color: #b8a225;
+}
+
+#baker {
+    height: 150px;
+    width: auto;
+}
+
+#big-rush {
+    height: 150px;
+    width: auto;
+}
+
+#stifel {
+    height: 150px;
+    width: auto;
+}
+
+#gori {
+    height: 150px;
+    width: auto;
+}
+
+#keefe {
+    height: 150px;
+    width: auto;
+}
+
+#mathis {
+    height: 150px;
+    width: auto;
+}
+
+#grey-eagle {
+    height: 200px;
+    width: auto;
+}
+
+#pour {
+    height: 200px;
+    width: auto;
+}
+
+#silver {
+    background-color: #adad9c;
+}
+
+#bennies, #kelley, #lashley {
+    height: 150px;
+    width: auto;
+}
+
+#support {
+    background-color: #2f9e19;
+}
+
+#info-name {
+    font-size: 16pt;
+}
+
+#info-address {
+    font-size: 16pt;
+}
+
+#results {
+    background-image: url(../img/gallery/trophy_table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#results-title {
+    color: #cdba55;
+    font-size: 8rem;
+    font-family: Comfortaa;
+}
+
+#btnResults {
+    background-color: #2f9e19;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.thumbnail {
+    height: auto;
+    width: 400px;
+}
