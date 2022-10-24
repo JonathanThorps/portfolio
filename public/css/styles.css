@@ -1,5 +1,9 @@
 #home {
-
+    background-image: url();
+    background-position: center;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #about {
@@ -14,6 +18,30 @@
     background-image: url(../img/pexels-sergei-starostin-6466141.jpg);
     background-position: center;
     background-attachment:local;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#coursework {
+    background-image: url();
+    background-position: center;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portfolio {
+    background-image: url();
+    background-position: center;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact {
+    background-image: url();
+    background-position: center;
+    background-attachment: local;
     background-repeat: no-repeat;
     background-size: cover;
 }
